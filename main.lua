@@ -117,7 +117,7 @@ function Building.new(BuildingObject)
 
     return self
 end
-function Building:Build(Type, CFrameArg)
+function Team:Build(Type, CFrameArg)
     local StaticVector = Vector3.new(99, 99, 9999) 
 
     local function CalculateVector(Vector)
