@@ -572,6 +572,13 @@ function Team:IsAlliedWith(Team)
     
     return Allies:FindFirstChild(Team.Name)
 end
+
+function Team:test(Team1)
+    local Allies = self.Stats:FindFirstChild("Allies");
+    
+    return Allies:FindFirstChild(Team1.Name)
+end
+
 function Team:Build(Type, CFrameArg)
     local StaticVector = Vector3.new(99, 99, 9999) 
 
