@@ -73,7 +73,7 @@ BuildBuilding("Barracks",newpos)
 
 local args = {
     [1] = "Construction Soldier",
-    [2] = LocalTeam2
+    [2] = LocalTeam2.Barracks
 }
 
 local BuildRemote = ReplicatedStorage:FindFirstChild("IIjljj", true)
