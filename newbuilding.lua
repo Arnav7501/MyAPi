@@ -60,7 +60,8 @@ for _, building in allBuildings do
 end
 local ccPosition = commandCenter.Instance.PrimaryPart.Position
 newpos = CFrame.new(ccPosition.X, ccPosition.Y, ccPosition.Z+5)
-BuildBuilding("Barracks",newpos)
+BuildBuilding("Research Center",newpos)
+task.wait(15)
 --[[
 	Lua U Remote Spy written by TheExtreme (TheExtreme#6073 @ Discord)
 	This remote spy has no user interface, settings are changed via _G (Look at line 15 for them)
@@ -73,9 +74,8 @@ BuildBuilding("Barracks",newpos)
 
 
 local args = {
-    [1] = "Construction Soldier",
-    [2] = LocalTeam2.Barracks
+    [1] = LocalTeam2.IjIIil.Nuclear Silo
 }
 
-local BuildRemote = ReplicatedStorage:FindFirstChild("IIjljj", true)
+local BuildRemote = ReplicatedStorage:FindFirstChild("ilIIIl", true)
 BuildRemote:FireServer(unpack(args))
