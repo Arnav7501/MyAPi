@@ -59,7 +59,9 @@ for _, building in allBuildings do
     end
 end
 local ccPosition = commandCenter.Instance.PrimaryPart.Position
-newpos = CFrame.new(ccPosition.X, ccPosition.Y, ccPosition.Z+15)
+newpos = CFrame.new(ccPosition.X, ccPosition.Y, ccPosition.Z+10)
+BuildBuilding("Tank Factory",newpos)
+newpos = CFrame.new(ccPosition.X+10, ccPosition.Y, ccPosition.Z)
 BuildBuilding("Tank Factory",newpos)
 task.wait(15)
 
