@@ -61,7 +61,11 @@ end
 local ccPosition = commandCenter.Instance.PrimaryPart.Position
 newpos = CFrame.new(ccPosition.X, ccPosition.Y, ccPosition.Z-10)
 BuildBuilding("Research Center",newpos)
-task.wait(1)
+newpos = CFrame.new(ccPosition.X, ccPosition.Y, ccPosition.Z+10)
+BuildBuilding("Research Center",newpos)
+newpos = CFrame.new(ccPosition.X+5, ccPosition.Y, ccPosition.Z)
+BuildBuilding("Research Center",newpos)
+task.wait(40)
 --[[
 	Lua U Remote Spy written by TheExtreme (TheExtreme#6073 @ Discord)
 	This remote spy has no user interface, settings are changed via _G (Look at line 15 for them)
@@ -79,3 +83,8 @@ local args = {
 
 local BuildRemote = ReplicatedStorage:FindFirstChild("ilIIIl", true)
 BuildRemote:FireServer(unpack(args))
+task.wait(60)
+newpos = CFrame.new(ccPosition.X+5, ccPosition.Y, ccPosition.Z)
+BuildBuilding("Research Center",newpos
+	newpos = CFrame.new(ccPosition.X-5, ccPosition.Y, ccPosition.Z)
+BuildBuilding("Research Center",newpos
